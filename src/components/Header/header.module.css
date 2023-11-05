@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.8rem 1rem;
+    /* background-color: hsl(0, 0%, 98%); */
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.headerIcon{
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: hsl(0, 0%, 98%);
+    cursor: pointer;
+}
+
+.headerIcon p {
+    padding-left:0.5rem;
+    font-weight: 600;
+}
+
+@media(min-width:1300px){
+    .header{
+        padding:1.8rem 8rem;
+    }
+}

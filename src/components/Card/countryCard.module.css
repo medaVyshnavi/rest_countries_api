@@ -1,0 +1,27 @@
+.details {
+  font-weight: 800;
+}
+
+h5 {
+  font-weight: 900;
+  padding: 0.7rem 0;
+}
+
+h6 {
+  font-size: 14px;
+  padding-top: 0.3rem;
+}
+
+.gridStyling{
+  margin:2.5rem 3rem;
+  border-radius:0.5rem;
+   height:350px;
+}
+
+@media(min-width:1300px){
+  .gridStyling{
+    display: inline-grid !important;
+    margin: 1rem;
+    width:22%
+  }
+}

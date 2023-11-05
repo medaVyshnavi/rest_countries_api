@@ -1,0 +1,106 @@
+.button {
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: 0.4rem 1.2rem;
+  justify-content: space-around;
+  margin: 2.5rem 1.2rem 1.2rem;
+  background-color: #fff;
+  border-radius: 0.3rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+p {
+  font-weight: 300;
+  display: inline;
+}
+
+option {
+  font-weight: 600;
+}
+
+.countryStyling {
+  margin: 3.5rem 2rem;
+}
+
+.countryStyling h6 {
+  margin-top: 0.5rem;
+}
+.title {
+  margin-top: 2rem;
+}
+
+.borderDiv {
+  margin-top: 2rem;
+}
+
+.borderDiv button {
+  padding: 0.5rem 1rem;
+  border: none;
+  width: 25%;
+  background-color: #fff;
+  margin: 1rem 0.8rem 0.5rem 0;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 0.3rem;
+}
+
+.extraInfo {
+  margin-top: 2rem;
+}
+
+@media (min-width: 900px) {
+  .countryStyling {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 8rem;
+  }
+
+  .countryStyling h6 {
+    margin-top: 0.2rem;
+  }
+
+  .detailImg {
+    height: 50%;
+    width: 40%;
+    margin-top: 1rem;
+  }
+
+  .infoStyling {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: -1rem;
+    width: 114%;
+  }
+
+  .button {
+    width: 8%;
+    margin: 2rem 8rem;
+  }
+
+  .dataStyling {
+    width: 36%;
+    margin-right: 8rem;
+    margin-top: -1rem;
+  }
+
+  .borderDiv h4 {
+    display: inline;
+  }
+
+  .title {
+    margin-top: 3rem;
+  }
+
+  .borderDiv button {
+    width: 15%;
+    padding: 0.5rem 0.3rem;
+    margin: 0 0.3rem 0.5rem;
+  }
+
+  .borderDiv {
+    width: 118%;
+  }
+}
